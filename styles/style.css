@@ -14,7 +14,14 @@
   align-items: center;
   font-size: 22px;
   font-weight: bold;
-  color: #2d3748;
+  
+}
+
+.logo img {
+  height: 26px;
+  width: 30px;
+  margin-right: 10px;
+  color: #D8D8D8;
 }
 
 
@@ -22,17 +29,11 @@
 .nav {
   display: flex;
   gap: 30px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #333;
+  font-family: 'Poppins', sans-serif;
+  color: #2F281E;
   font-size: 16px;
-}
+  }
 
-.nav a:hover {
-  color: #FF9900; /* orange on hover */
-}
 
 /* Buttons */
 .buttons {
@@ -47,21 +48,71 @@
   cursor: pointer;
   font-size: 15px;
   border: none;
-  transition: 0.2s;
+  
 }
 
 /* White Button */
 .btn-white {
   background: white;
   border: 1px solid #ddd;
-  color: #333;
+  color: #173A56;
 }
 
-.btn-white:hover {
-  background: #f1f1f1;
-}
 
 /* Orange Button */
+.btn-orange {
+  background: #f97316;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left side content */
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2d2d2d;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Buttons area */
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  transition: 0.2s;
+}
+
 .btn-orange {
   background: #f97316;
   color: white;
@@ -70,3 +121,37 @@
 .btn-orange:hover {
   background: #ea580c;
 }
+
+/* Watch video link */
+.watch-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f97316;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.watch-link:hover {
+  text-decoration: underline;
+}
+
+.play-icon {
+  font-size: 16px;
+  margin-right: 8px;
+  color: #f97316;
+}
+
+/* Right side image */
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
