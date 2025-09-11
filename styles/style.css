@@ -1,0 +1,72 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+ 
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #FF9900; /* orange on hover */
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  transition: 0.2s;
+}
+
+/* White Button */
+.btn-white {
+  background: white;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.btn-white:hover {
+  background: #f1f1f1;
+}
+
+/* Orange Button */
+.btn-orange {
+  background: #f97316;
+  color: white;
+}
+
+.btn-orange:hover {
+  background: #ea580c;
+}
