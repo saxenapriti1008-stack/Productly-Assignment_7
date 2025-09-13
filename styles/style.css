@@ -43,8 +43,8 @@
 }
 
 nav ul li a {
-  text-decoration: none;   /* removes underline */
-  color: #000;            /* black text */
+  text-decoration: none;  
+  color: #000;            
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;       /* regular */
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #f97316;  /* optional hover effect (orange) */
+  color: #f97316;  
 }
 
 /* Buttons */
@@ -507,6 +507,44 @@ nav ul li a:hover {
 .footer-links a:hover {
   color: #f97316;
 }
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start;  
+  gap: 12px;
+}
+
+.footer-newsletter input {
+  width: 260px;              
+  padding: 12px 14px;
+  border: 1px solid #ddd;    
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.footer-newsletter input:focus {
+  border-color: #f97316;     
+}
+
+.footer-newsletter .btn-orange {
+  background: #f97316;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  border: none;              
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.footer-newsletter .btn-orange:hover {
+  background: #ea580c;       
+}
+
 
 
 
